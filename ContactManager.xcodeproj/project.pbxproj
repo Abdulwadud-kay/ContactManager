@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140F919A2BCD8CA3009F01B5 /* DeleteContactPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 140F91982BCD8CA3009F01B5 /* DeleteContactPage.cpp */; };
+		140F919D2BCD8CE6009F01B5 /* EditContactPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 140F919B2BCD8CE6009F01B5 /* EditContactPage.cpp */; };
 		14A8298E2BC9E5E900C89E72 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A8298D2BC9E5E900C89E72 /* main.cpp */; };
+		14A829992BC9E7BB00C89E72 /* AddContactPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A829972BC9E7BB00C89E72 /* AddContactPage.cpp */; };
+		14A8299C2BC9E80D00C89E72 /* SearchContactPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A8299A2BC9E80D00C89E72 /* SearchContactPage.cpp */; };
+		14A829A22BC9EB7F00C89E72 /* ContactManaging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14A829A02BC9EB7F00C89E72 /* ContactManaging.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		140F91982BCD8CA3009F01B5 /* DeleteContactPage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteContactPage.cpp; sourceTree = "<group>"; };
+		140F91992BCD8CA3009F01B5 /* DeleteContactPage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeleteContactPage.hpp; sourceTree = "<group>"; };
+		140F919B2BCD8CE6009F01B5 /* EditContactPage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EditContactPage.cpp; sourceTree = "<group>"; };
+		140F919C2BCD8CE6009F01B5 /* EditContactPage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EditContactPage.hpp; sourceTree = "<group>"; };
+		140F919F2BCD8E91009F01B5 /* Contact.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Contact.hpp; sourceTree = "<group>"; };
 		14A8298A2BC9E5E900C89E72 /* ContactManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ContactManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A8298D2BC9E5E900C89E72 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14A829972BC9E7BB00C89E72 /* AddContactPage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AddContactPage.cpp; sourceTree = "<group>"; };
+		14A829982BC9E7BB00C89E72 /* AddContactPage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AddContactPage.hpp; sourceTree = "<group>"; };
+		14A8299A2BC9E80D00C89E72 /* SearchContactPage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SearchContactPage.cpp; sourceTree = "<group>"; };
+		14A8299B2BC9E80D00C89E72 /* SearchContactPage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SearchContactPage.hpp; sourceTree = "<group>"; };
+		14A829A02BC9EB7F00C89E72 /* ContactManaging.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ContactManaging.cpp; sourceTree = "<group>"; };
+		14A829A12BC9EB7F00C89E72 /* ContactManaging.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ContactManaging.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,17 @@
 			isa = PBXGroup;
 			children = (
 				14A8298D2BC9E5E900C89E72 /* main.cpp */,
+				14A829972BC9E7BB00C89E72 /* AddContactPage.cpp */,
+				14A829982BC9E7BB00C89E72 /* AddContactPage.hpp */,
+				14A8299A2BC9E80D00C89E72 /* SearchContactPage.cpp */,
+				14A8299B2BC9E80D00C89E72 /* SearchContactPage.hpp */,
+				14A829A02BC9EB7F00C89E72 /* ContactManaging.cpp */,
+				14A829A12BC9EB7F00C89E72 /* ContactManaging.hpp */,
+				140F91982BCD8CA3009F01B5 /* DeleteContactPage.cpp */,
+				140F91992BCD8CA3009F01B5 /* DeleteContactPage.hpp */,
+				140F919B2BCD8CE6009F01B5 /* EditContactPage.cpp */,
+				140F919C2BCD8CE6009F01B5 /* EditContactPage.hpp */,
+				140F919F2BCD8E91009F01B5 /* Contact.hpp */,
 			);
 			path = ContactManager;
 			sourceTree = "<group>";
@@ -119,7 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A829992BC9E7BB00C89E72 /* AddContactPage.cpp in Sources */,
+				140F919D2BCD8CE6009F01B5 /* EditContactPage.cpp in Sources */,
+				14A8299C2BC9E80D00C89E72 /* SearchContactPage.cpp in Sources */,
+				14A829A22BC9EB7F00C89E72 /* ContactManaging.cpp in Sources */,
 				14A8298E2BC9E5E900C89E72 /* main.cpp in Sources */,
+				140F919A2BCD8CA3009F01B5 /* DeleteContactPage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
